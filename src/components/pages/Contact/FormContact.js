@@ -7,7 +7,7 @@ export default function FormContact() {
       <form
         name="contact"
         netlify
-        method="post"
+        method="POST"
         data-netlify="true"
         onSubmit="submit"
       >
