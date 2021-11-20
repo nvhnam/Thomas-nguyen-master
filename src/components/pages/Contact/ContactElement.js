@@ -89,24 +89,6 @@ export const ContactCol1 = styled.div`
   }
 `;
 
-export const ContactForm = styled.form`
-  align-items: center;
-  justify-content: center;
-  height: auto;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1rem;
-
-  @media screen and (max-width: 767px) {
-    padding: 0.5rem;
-  }
-
-  @media screen and (max-width: 320px) {
-    padding: 0.3rem;
-  }
-`;
-
 export const FormHeading = styled.h1`
   font-size: 2rem;
   color: #010606;
@@ -127,6 +109,24 @@ export const FormHeading = styled.h1`
   @media screen and (max-width: 320px) {
     font-size: 1.2rem;
     margin: 0.4rem 0.2rem 0 0.2rem;
+  }
+`;
+
+export const ContactForm = styled.form`
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+
+  @media screen and (max-width: 767px) {
+    padding: 0.5rem;
+  }
+
+  @media screen and (max-width: 320px) {
+    padding: 0.3rem;
   }
 `;
 

@@ -14,6 +14,7 @@ import {
   FormButton,
 } from "./ContactElement";
 import "./Contact.css";
+import FormContact from "./FormContact";
 
 const Contact = () => {
   return (
@@ -23,7 +24,8 @@ const Contact = () => {
           <ContactRow>
             <ContactCol1>
               <FormHeading>Contact Us</FormHeading>
-              <ContactForm name="contact">
+              <FormContact />
+              {/* <ContactForm name="contact">
                 <FormField>
                   <FormLabel>Name</FormLabel>
                   <FormInput
@@ -74,7 +76,7 @@ const Contact = () => {
                     Send
                   </Button>
                 </FormButton>
-              </ContactForm>
+              </ContactForm> */}
             </ContactCol1>
           </ContactRow>
         </ContactWrapper>
