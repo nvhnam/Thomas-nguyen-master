@@ -7,6 +7,13 @@
   background-clip: border-box;
 }
 
+@media screen and (max-width: 1160px) {
+  #contact {
+    background-size: 130%;
+    background-position: 10vw -25vmin;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   #contact {
     background-size: 140%;

@@ -37,6 +37,10 @@ export const Col1 = styled.div`
   width: 50%;
   z-index: 2;
 
+  @media screen and (max-width: 1100px) {
+    padding: 1.8rem;
+  }
+
   @media screen and (max-width: 1024px) {
     padding-right: 1rem;
   }

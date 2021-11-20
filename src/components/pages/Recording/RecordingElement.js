@@ -12,40 +12,43 @@ export const RecordingContainer = styled.div`
   left: 0;
   top: 2350px;
 
-  @media screen and (max-width: 1024px) {
-    top: auto;
-  }
-
-  @media screen and (max-width: 940px) {
+  @media screen and (max-width: 1240px) {
     top: auto;
   }
 
   @media screen and (max-width: 767px) {
-    top: auto;
-    height: 88rem;
+    height: 93rem;
     /* margin-bottom: 20rem; */
   }
 
   @media screen and (max-width: 320px) {
-    height: 75rem;
+    height: 80rem;
   }
 `;
 
 export const RecordingWrapper = styled.div`
   width: 100%;
-  max-width: 1100px;
+  max-width: 1000px;
   height: 100%;
 `;
 
 export const RecordingRow = styled.div`
   display: flex;
   width: 100%;
-  margin-left: 4.5rem;
+  margin-left: 4rem;
   padding: 7rem 2rem 1rem 2rem;
   flex-direction: row;
   justify-content: space-between;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1240px) {
+    margin-left: 1rem;
+  }
+
+  @media screen and (max-width: 1050px) {
+    margin-left: 0.5rem;
+  }
+
+  @media screen and (max-width: 1050px) {
     margin-left: 0;
   }
 
@@ -67,6 +70,10 @@ export const RecordingCol1 = styled.div`
   box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 35%);
   border-radius: 5px;
   padding: 2rem;
+
+  @media screen and (max-width: 1240px) {
+    width: 55%;
+  }
 
   @media screen and (max-width: 1024px) {
     width: 50%;
@@ -112,7 +119,7 @@ export const RecordingText1Wrapper = styled.div`
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1240px) {
     margin-top: -2rem;
   }
 
@@ -209,15 +216,11 @@ export const SponsorLogo = styled.div`
   padding: 1rem;
   width: 100%;
   height: 100%;
-  margin-left: 3.8rem;
+  margin-left: 2rem;
   margin-right: auto;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1240px) {
     margin-left: 1rem;
-  }
-
-  @media screen and (max-width: 940px) {
-    margin-left: 1 rem;
   }
 
   @media screen and (max-width: 767px) {
@@ -276,8 +279,17 @@ export const RecordingCol2 = styled.div`
   margin-left: 2rem;
   margin-right: -10rem;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1240px) {
+    width: 43%;
+    margin-right: -4rem;
+  }
+
+  @media screen and (max-width: 1050px) {
     width: 40%;
+    margin-right: -2rem;
+  }
+
+  @media screen and (max-width: 1024px) {
     margin-left: 0;
     margin-right: 0.7rem;
   }
@@ -439,8 +451,12 @@ export const FollowNowText = styled.p`
 export const BandSocialIcon = styled.div`
   justify-content: center;
   align-items: center;
-  margin-left: 3.5rem;
+  margin-left: 2.3rem;
   margin-right: auto;
+
+  @media screen and (max-width: 1240px) {
+    margin-left: 1rem;
+  }
 
   @media screen and (max-width: 1024px) {
     margin-left: 1rem;

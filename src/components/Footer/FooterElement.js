@@ -18,7 +18,7 @@ export const FooterWrapper = styled.div`
   margin-left: 5rem;
   padding: 0.5rem;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1200px) {
     margin-left: 0;
     padding-left: 2rem;
   }

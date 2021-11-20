@@ -26,7 +26,7 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
   align-items: center;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1100px) {
     padding: 1rem;
   }
 

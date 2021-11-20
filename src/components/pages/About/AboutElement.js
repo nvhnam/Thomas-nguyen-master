@@ -9,6 +9,10 @@ export const AboutContainer = styled.div`
   align-items: center;
   z-index: 1;
 
+  @media screen and (max-width: 1050px) {
+    height: auto;
+  }
+
   @media screen and (max-width: 1024px) {
     height: auto;
   }
@@ -59,6 +63,10 @@ export const AboutCol1 = styled.div`
   width: 60%;
   padding-left: 3rem;
   margin-top: 4rem;
+
+  @media screen and (max-width: 1024px) {
+    margin-top: 6rem;
+  }
 
   @media screen and (max-width: 940px) {
     margin-top: -3rem;

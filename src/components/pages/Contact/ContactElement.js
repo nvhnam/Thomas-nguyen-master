@@ -15,11 +15,11 @@ export const ContactContainer = styled.div`
 
   @media screen and (max-width: 767px) {
     height: 560px;
-    margin-top: 1400px;
+    margin-top: 1450px;
   }
 
   @media screen and (width: 320px) {
-    margin-top: 1200px;
+    margin-top: 1270px;
   }
 `;
 
