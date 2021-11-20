@@ -10,28 +10,35 @@ export default function FormContact() {
         method="POST"
         data-netlify="true"
         onSubmit="submit"
+        netlify-honeypot="bot-field"
       >
         <input type="hidden" name="form-name" value="contact" />
         <div className="form-field">
-          <label>Name</label>
-          <input type="text" name="name" placeholder="Enter your name" />
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Enter your name" />
+          </label>
         </div>
         <div className="form-field">
-          <label>Email</label>
-          <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="Enter your email"
-          />
+          <label>
+            Email
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </label>
         </div>
         <div className="form-field">
-          <label>Phone Number</label>
-          <input
-            type="number"
-            name="phone"
-            placeholder="Enter your phone number"
-          />
+          <label>
+            Phone Number
+            <input
+              type="number"
+              name="phone"
+              placeholder="Enter your phone number"
+            />
+          </label>
         </div>
         <div className="form-field">
           <label>Message</label>
