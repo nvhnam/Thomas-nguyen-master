@@ -1,0 +1,154 @@
+form {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+.form-field {
+  height: 100%;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+label {
+  font-size: 1.07rem;
+  color: #010606;
+  margin-right: 0.9rem;
+}
+
+input {
+  width: 56%;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 5px;
+  resize: vertical;
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 0.7rem;
+  height: 100px;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.form-button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  margin-left: -0.3rem;
+}
+
+.form-btn {
+  white-space: nowrap;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #010606;
+  padding: 13px 65px;
+  background-color: #fff;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-btn:hover {
+  background-color: #010606;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  border: none;
+}
+
+@media screen and (max-width: 940px) {
+  label {
+    margin-right: 0.7rem;
+  }
+
+  input {
+    width: 54%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  form {
+    padding: 0.5rem;
+  }
+
+  .form-field {
+    margin: 0.6rem 0;
+  }
+
+  label {
+    font-size: 0.8rem;
+    margin-right: 0.6rem;
+  }
+
+  input {
+    font-size: 0.7rem;
+    width: 52%;
+  }
+
+  textarea {
+    height: 70px;
+    font-size: 0.7rem;
+    padding: 0.2rem;
+  }
+
+  .form-btn {
+    padding: 8px 47px;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  form {
+    padding: 0.3rem;
+  }
+
+  label {
+    font-size: 0.7rem;
+    margin-right: 0.5rem;
+  }
+
+  input {
+    font-size: 0.6rem;
+    width: 55%;
+  }
+
+  textarea {
+    height: 80px;
+    font-size: 0.6rem;
+  }
+
+  .form-button {
+    margin-top: -0.5rem;
+    padding: 1rem;
+  }
+
+  .form-btn {
+    padding: 7px 41px;
+    text-align: center;
+    font-size: 13px;
+  }
+}

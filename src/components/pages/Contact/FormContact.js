@@ -1,8 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import { Button } from "../../ButtonElement";
+import "./FormContact.css";
 
-export const FormContact = () => {
+function FormContact() {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -30,7 +31,12 @@ export const FormContact = () => {
       <form name="contact" ref={form} onSubmit={sendEmail}>
         <div className="form-field">
           <label>Name</label>
-          <input type="text" name="name" placeholder="Enter your name" />
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+          />
         </div>
         <div className="form-field">
           <label>Email</label>
@@ -44,28 +50,30 @@ export const FormContact = () => {
         <div className="form-field">
           <label>Phone Number</label>
           <input
+            id="number"
             type="number"
-            name="phone"
+            name="number"
             placeholder="Enter your phone number"
           />
         </div>
         <div className="form-field">
           <label>Message</label>
           <br />
-          <textarea type="text" name="message" placeholder="..."></textarea>
+          <textarea
+            id="message"
+            type="text"
+            name="message"
+            placeholder="..."
+          ></textarea>
         </div>
         <div className="form-button">
-          <Button
-            primary={false}
-            big={false}
-            fontBig={false}
-            type="submit"
-            value="send"
-          >
+          <button type="submit" id="button" className="form-btn">
             Send
-          </Button>
+          </button>
         </div>
       </form>
     </>
   );
-};
+}
+
+export default FormContact;

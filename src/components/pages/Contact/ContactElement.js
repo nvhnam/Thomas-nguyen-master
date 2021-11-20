@@ -28,7 +28,7 @@ export const ContactWrapper = styled.div`
   height: auto;
   max-width: 1100px;
   padding: 1rem;
-  margin-top: 1rem;
+  margin-top: 0rem;
   margin-left: 2rem;
 
   @media screen and (max-width: 1024px) {
