@@ -56,7 +56,7 @@ const Footer = () => {
                   <FaFacebook />
                 </FooterIcon>
                 <FooterIcon
-                  href="//www.instagram.com/leteam.official"
+                  href="//www.instagram.com/nvh.nam01/"
                   target="_blank"
                 >
                   <FaInstagram />
