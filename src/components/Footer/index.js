@@ -61,7 +61,7 @@ const Footer = () => {
                 >
                   <FaInstagram />
                 </FooterIcon>
-                <FooterIcon href="/www.twitter.com/nvhnam01" target="_blank">
+                <FooterIcon href="//www.twitter.com/nvhnam01" target="_blank">
                   <FaTwitter />
                 </FooterIcon>
                 <FooterIcon
