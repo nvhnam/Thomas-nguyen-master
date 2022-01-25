@@ -33,12 +33,12 @@ const About = () => {
                 performances and recording sessions.
               </AboutPara>
               <AboutPara>
-                Music has always been a important part in my life since the
+                Music has always been an important part of my life since the
                 early days, it helps me express my emotions and become one of
-                the main inspirations for me to get up everyday and improve
-                myself. Beside that, it also a reason why i learn to play a
+                the main inspirations for me to get up every day and improve
+                myself. Besides that, it is also a reason why I learn to play a
                 musical instrument and that made me discover some of the
-                abilities that i never thought i would have had.
+                abilities that I never thought I would have had.
               </AboutPara>
               <AboutPara>
                 After years of working and learning from some of the blessed
